@@ -5,7 +5,7 @@ use ExtUtils::MakeMaker;
 WriteMakefile(
     'NAME'		=> 'Palm::Memo32',
     'VERSION_FROM'	=> 'Memo32.pm', # finds $VERSION
-    'PREREQ_PM'		=> {p5Palm}, # e.g., Module::Name => 1.1
+    'PREREQ_PM'		=> {Palm::Raw}, # e.g., Module::Name => 1.1
     ($] >= 5.005 ?    ## Add these new keywords supported since 5.005
       (ABSTRACT_FROM => 'Memo32.pm', # retrieve abstract from module
        AUTHOR     => 'Wayne A. Arthurton <warthurt@cpan.org>') : ()),

@@ -8,7 +8,7 @@
 #	You may distribute this file under the terms of the Artistic
 #	License, as specified in the README file.
 #
-# $Id: Memo32.pm,v 1.00 2003/5/01 15:00:00 warthurt Exp $
+# $Id: Memo32.pm,v 1.01 2003/5/01 15:00:00 warthurt Exp $
 
 use strict;
 package Palm::Memo32;
